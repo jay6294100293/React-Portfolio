@@ -71,7 +71,7 @@ const Header = () => {
                         : "nav__link"
                   }
               >
-                <i className="uil uil-briefcase-alt nav__icon"></i> Work Experience
+                <i className="uil uil-briefcase-alt nav__icon"></i> Experience
               </a>
             </li>
             <li className="nav__item">

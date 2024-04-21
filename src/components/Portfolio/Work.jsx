@@ -325,7 +325,7 @@ const Projects = () => {
 
   return (
     <section id="portfolio" className="work section">
-      <h2 className="section__title">Portfolio</h2>
+      <h2 className="section__title">Projects</h2>
       <span className="section__subtitle">Most recent work</span>
 
       <div className="work__filters">
