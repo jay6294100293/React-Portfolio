@@ -321,7 +321,7 @@ const Contact = () => {
     const formData = new FormData(form.current);
     formData.append('profile_id', contactData.id); // Assuming contactData contains profile id
 
-    fetch("https://mrityunjay6294.pythonanywhere.com/portfolio/feedback/1/", {
+    fetch("https://mrityunjay6294.pythonanywhere.com/portfolio/profiles/1/feedbacks/", {
       method: "POST",
       body: formData
     })
