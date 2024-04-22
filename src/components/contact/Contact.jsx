@@ -186,7 +186,7 @@ const Contact = () => {
                   <i className="bx bx-mail-send contact__card-icon"></i>
 
                   <h3 className="contact__card-title">Email</h3>
-                  <span className="contact__card-data">{contactData.email}</span>
+                  {/*<span className="contact__card-data">{contactData.email}</span>*/}
 
                   <a
                     href={`mailto:${contactData.email}`}
@@ -201,7 +201,7 @@ const Contact = () => {
                   <i className="bx bxl-linkedin contact__card-icon"></i>
 
                   <h3 className="contact__card-title">LinkedIn</h3>
-                  <span className="contact__card-data">{contactData.linkedin}</span>
+                  {/*<span className="contact__card-data">{contactData.linkedin}</span>*/}
 
                   <a
                     href={contactData.linkedin}
@@ -218,7 +218,7 @@ const Contact = () => {
                   <i className="bx bxl-github contact__card-icon"></i>
 
                   <h3 className="contact__card-title">GitHub</h3>
-                  <span className="contact__card-data">{contactData.github}</span>
+                  {/*<span className="contact__card-data">{contactData.github}</span>*/}
 
                   <a
                     href={contactData.github}
@@ -236,7 +236,7 @@ const Contact = () => {
         </div>
 
         <div className="contact__content">
-          <h3 className="contact__title">Write me your project</h3>
+          <h3 className="contact__title">Write me your Question or Feedback</h3>
 
           <form ref={form} onSubmit={sendEmail} className="contact__form">
             <div className="contact__form-div">
@@ -260,13 +260,13 @@ const Contact = () => {
             </div>
 
             <div className="contact__form-div contact__form-area">
-              <label className="contact__form-tag">Project</label>
+              <label className="contact__form-tag">Question/FeedBack</label>
               <textarea
                 name="project"
                 cols="30"
                 rows="10"
                 className="contact__form-input"
-                placeholder="Write your project"
+                placeholder="Write your Question"
               ></textarea>
             </div>
 
