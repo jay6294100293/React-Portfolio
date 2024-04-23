@@ -1,5 +1,6 @@
 .home__container {
   row-gap: 7rem;
+
 }
 
 .home__content {
@@ -7,6 +8,7 @@
   padding-top: 5.5rem;
   column-gap: 2rem;
   align-items: center;
+  justify-content: center;
 }
 
 .home__social {
@@ -36,16 +38,16 @@
 }
 
 .home__subtitle {
-  position: relative;
+  position: fixed;
   font-size: var(--h3-font-size);
-  padding-left: 5.4rem;
+  padding-left: 3rem;
   font-weight: var(--font-normal);
   margin-bottom: var(--mb-1);
 }
 
 .home__subtitle::before {
   content: "";
-  position: absolute;
+  position: fixed;
   width: 70px;
   height: 1px;
   background-color: var(--text-color);
@@ -54,6 +56,7 @@
 }
 
 .home__description {
+
   max-width: 400px;
   margin-bottom: var(--mb-3);
 }
@@ -129,6 +132,7 @@
   }
 
   .home__subtitle {
+    position: fixed;
     padding-left: 3.75rem;
     margin-bottom: var(--mb-1);
   }
@@ -195,8 +199,9 @@
 }
 
 .job-title {
+
   font-family: cursive;
-  font-size: 24px;
+  font-size: 20px;
   text-align: start; /* Align the job title text to the center */
   margin-top: 5%; /* Add some space above the job title */
   margin-bottom: 5%;
@@ -216,3 +221,14 @@
 .job-title-data-science {
   color: #d62728; /* Data Science color */
 }
+
+.home__subtitle {
+    font-size: smaller; /* Adjusted font size for small screens */
+    margin-bottom: var(--mb-0-25); /* Adjusted margin for small screens */
+  }
+.home__description {
+    max-width: 300px; /* Reduced max-width for small screens */
+    margin-bottom: var(--mb-1); /* Adjusted margin for small screens */
+  }
+
+

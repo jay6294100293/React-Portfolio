@@ -136,30 +136,32 @@ const Data = () => {
   };
 
   return (
-    <div className="home__data">
-      <h1 className="home__title">
-        {userData.first_name} {userData.last_name}
+      <div className="home__data">
+        <h1 className="home__title">
+          {userData.first_name} {userData.last_name}
 
-      </h1>
-      <div className={`job-title ${getJobTitleClass(jobIndex)}`}>
-        {"Software Developer & Aspiring "+userData.job_title.split(" / ")[jobIndex]}
+        </h1>
+
+        <div className={`job-title ${getJobTitleClass(jobIndex)}`}>
+          <p>Cultivating a Path to ...</p>
+          {userData.job_title.split(" / ")[jobIndex]}
+        </div>
+        <p className="home__description">{userData.about_me}</p>
+
+        <a href="#contact" className="button button--flex">
+          Say Hello
+          <svg
+              className="button__icon"
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+          >
+            {/* SVG path */}
+          </svg>
+        </a>
       </div>
-      <p className="home__description">{userData.about_me}</p>
-
-      <a href="#contact" className="button button--flex">
-        Say Hello
-        <svg
-          className="button__icon"
-          xmlns="http://www.w3.org/2000/svg"
-          width="24"
-          height="24"
-          viewBox="0 0 24 24"
-          fill="none"
-        >
-          {/* SVG path */}
-        </svg>
-      </a>
-    </div>
   );
 };
 

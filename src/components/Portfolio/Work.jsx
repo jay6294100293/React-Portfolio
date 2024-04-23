@@ -303,6 +303,7 @@
 
 import React, { useState, useEffect } from "react";
 import "./work.css";
+import "./navigation.css"
 
 const Projects = () => {
   const [projects, setProjects] = useState([]);

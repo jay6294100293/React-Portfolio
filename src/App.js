@@ -11,11 +11,15 @@ import Testimonials from './components/testimonials/Testimonials';
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
 import ScrollUp from './components/scrollup/ScrollUp';
+import {Navbar} from "@nextui-org/react";
+import AppNavbar from "./components/header/Header";
+import NavbarComponent from "./components/header/Header";
 
 const App = () => {
   return (
     <>
-    <Header />
+    {/*<Header />*/}
+        <NavbarComponent />
 
     <main className='main'>
       <Home />

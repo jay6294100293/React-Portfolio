@@ -205,7 +205,7 @@ img {
 @media screen and (max-width: 576px) {
 }
 
-/* For small devices */
+ /*For small devices*/
 @media screen and (max-width: 350px) {
   :root {
     --big-font-size: 2.25rem;
@@ -216,3 +216,18 @@ img {
     margin-right: var(--mb-1);
   }
 }
+
+/*@media screen and (max-width: 350px) {*/
+/*  .section__title,*/
+/*  .section__subtitle {*/
+/*    text-align: center; !* Align section titles and subtitles to the center *!*/
+/*  }*/
+
+/*  .container {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    align-items: center; !* Align container content to the center *!*/
+/*    margin: 0 auto; !* Center the container horizontally *!*/
+/*    max-width: 100%; !* Adjust container width to fit smaller screens *!*/
+/*  }*/
+/*}*/

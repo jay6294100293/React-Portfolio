@@ -123,10 +123,13 @@
     }
 
     .contact__info {
+        width: 80%;
+       margin: 0 auto;
         justify-content: center;
     }
 
     .contact__form {
+        width: 80%;
         margin: 0 auto;
     }
   }
@@ -137,7 +140,7 @@
     }
 
     .contact__form {
-        width: 100%;
+        width: 80%;
     }
   }
   
