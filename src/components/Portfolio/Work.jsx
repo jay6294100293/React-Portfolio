@@ -310,7 +310,7 @@ const Projects = () => {
   const [selectedCategory, setSelectedCategory] = useState("All");
 
   useEffect(() => {
-    fetch("https://mrityunjay6294.pythonanywhere.com/portfolio/projects/")
+    fetch("https://mrityunjay6294.pythonanywhere.com/portfolio/profiles/1/projects/")
       .then((response) => response.json())
       .then((data) => setProjects(data));
   }, []);
