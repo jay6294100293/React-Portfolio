@@ -242,6 +242,7 @@
 
     .about__img {
         max-width: 220px;
+        justify-content: start;
     }
 
     .about__box {
@@ -254,10 +255,11 @@
 
     .about__info {
         justify-content: center;
+
     }
 
     .about__description {
-        padding: 0 5rem;
+        padding: 0 1rem;
         margin-bottom: 2rem;
     }
 }
