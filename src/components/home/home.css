@@ -143,7 +143,7 @@
   }
 
   .home__description {
-    max-width: initial;
+    max-width: max-content;
     margin-bottom: var(--mb-2-5);
   }
 
@@ -200,7 +200,7 @@
 
 .job-title {
 
-  font-family: cursive;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   font-size: 20px;
   text-align: start; /* Align the job title text to the center */
   margin-top: 5%; /* Add some space above the job title */
@@ -227,7 +227,7 @@
     margin-bottom: var(--mb-0-25); /* Adjusted margin for small screens */
   }
 .home__description {
-    max-width: 300px; /* Reduced max-width for small screens */
+    max-width: 450px; /* Reduced max-width for small screens */
     margin-bottom: var(--mb-1); /* Adjusted margin for small screens */
   }
 
