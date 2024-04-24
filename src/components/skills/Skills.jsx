@@ -13,26 +13,7 @@ const Skills = () => {
       .catch(error => console.error('Error fetching skills data:', error));
   }, []);
 
-  // const renderSkills = () => {
-  //   return skillsData.map((skill, index) => (
-  //     <div className="skills__content" key={index}>
-  //       <h3 className="skills__title">{skill.title}</h3>
-  //       <div className="skills__box">
-  //         {skill.names.map((item, i) => (
-  //           <div className="skills__group" key={i}>
-  //             <div className="skills__data">
-  //               <i className="bx bx-badge-check"></i>
-  //               <div className="skills__info">
-  //                 <h3 className="skills__name">{item.name}</h3>
-  //                 <span className="skills__level">{item.level}</span>
-  //               </div>
-  //             </div>
-  //           </div>
-  //         ))}
-  //       </div>
-  //     </div>
-  //   ));
-  // };
+//
 // const renderSkills = () => {
 //   return skillsData.map((skill, index) => (
 //     <div className="skills__content" key={index}>
@@ -60,7 +41,10 @@ const Skills = () => {
       <h3 className="skills__title">{skill.title}</h3>
       <div className="skills__box">
         {skill.names
-          .sort((a, b) => a.name.length - b.name.length) // Sort by length of skill names
+          .sort((a, b) => {
+            const levelsOrder = { 'Advance': 1, 'Intermediate': 2, 'Basic': 3 };
+            return levelsOrder[a.level] - levelsOrder[b.level];
+          }) // Sort by level
           .map((item, i) => (
             <div className="skills__group" key={i}>
               <div className="skills__data">
