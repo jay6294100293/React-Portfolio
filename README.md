@@ -1,70 +1,79 @@
-# Getting Started with Create React App
+Live demo : https://react-portfolio-delta-wheat.vercel.app/
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Portfolio App Documentation
 
-## Available Scripts
+## Introduction
+This is a React portfolio application designed to showcase your skills, experience, projects, certifications, and contact information.
 
-In the project directory, you can run:
+## Sections
 
-### `npm start`
+### Home
+<img width="678" alt="image" src="https://github.com/jay6294100293/React-Portfolio/assets/142631405/1525181c-c81e-4632-b7d5-7f8fa0493cb2">
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- A brief introduction to yourself.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+### About Me
+<img width="625" alt="image" src="https://github.com/jay6294100293/React-Portfolio/assets/142631405/ac41fc6d-013f-469a-868c-cc5e38f9b876">
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Detailed information about yourself.
 
-### `npm run build`
+### Skills
+<img width="581" alt="image" src="https://github.com/jay6294100293/React-Portfolio/assets/142631405/22c6a132-7533-416d-9df1-81294900b352">
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Displays your skills categorized into different sections: Machine Learning Engineer, Data Science, Data Analytics, Software Engineer.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Experience
+<img width="695" alt="image" src="https://github.com/jay6294100293/React-Portfolio/assets/142631405/8f219149-476e-4bd5-bbf5-9eb6ba87cad3">
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Highlights your work experience.
 
-### `npm run eject`
+### Qualifications
+<img width="355" alt="image" src="https://github.com/jay6294100293/React-Portfolio/assets/142631405/8bc26aec-5032-4d0f-8dc6-3bf69d6c64f2">
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Lists your educational qualifications.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Projects
+<img width="709" alt="image" src="https://github.com/jay6294100293/React-Portfolio/assets/142631405/47d0dd1e-0c95-4e9d-8f45-6aa2496194bf">
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Showcases your projects with images, introductions, GitHub links, live links, and categorized into different sections: All, Machine Learning, Data Science, Data Analytics, Software Engineer.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Read More
+- Provides additional details about your projects.
 
-## Learn More
+### Certifications
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+https://github.com/jay6294100293/React-Portfolio/assets/142631405/716fd9b0-827d-42ba-a029-c0c1de994a9e
 
-### Code Splitting
+Uploading Recording 2024-04-25 162625.mp4…
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Displays your certifications with icons, titles, dates completed, and skills covered.
 
-### Analyzing the Bundle Size
+### Get in Touch
+- Contains your contact information including email, LinkedIn, and GitHub.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## CI/CD Pipeline
+The application is deployed using Vercel, with a continuous integration and continuous deployment pipeline.
 
-### Making a Progressive Web App
+## Template
+This portfolio app is built using a modified version of a React template. The original template can be found [here]([insert_link_to_original_template](https://buymeacoffee.com/crypticacoder/e/85393)).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Images/GIFs
+Attached images or GIFs provide visual representations for each section.
 
-### Advanced Configuration
+## Usage
+To run the application locally:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+1. Clone this repository.
+2. Install dependencies using `npm install`.
+3. Start the development server using `npm start`.
 
-### Deployment
+## Deployment
+The application is automatically deployed to Vercel via the CI/CD pipeline on every push to the main branch.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Contributors
+- [Mityunjay Gupta]
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## License
+This project is licensed under [MIT] - insert appropriate license.
