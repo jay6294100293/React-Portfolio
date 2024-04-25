@@ -1,4 +1,7 @@
-Live demo : https://react-portfolio-delta-wheat.vercel.app/
+Live demo :
+Portfolio Frontend(React) - https://react-portfolio-delta-wheat.vercel.app/
+Portfolio Backend(Django Rest Framework) - https://mrityunjay6294.pythonanywhere.com/admin/
+
 
 # Portfolio App Documentation
 
