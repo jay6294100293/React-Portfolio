@@ -1,6 +1,6 @@
 import React from 'react';
 import "./App.css";
-import Header from './components/header/Header';
+
 import Home from './components/home/Home';
 import About from './components/about/About';
 import Skills from './components/skills/Skills';
@@ -11,8 +11,7 @@ import Testimonials from './components/testimonials/Testimonials';
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
 import ScrollUp from './components/scrollup/ScrollUp';
-import {Navbar} from "@nextui-org/react";
-import AppNavbar from "./components/header/Header";
+
 import NavbarComponent from "./components/header/Header";
 
 const App = () => {

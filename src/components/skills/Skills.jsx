@@ -38,7 +38,7 @@ const Skills = () => {
     const renderSkills = () => {
   return skillsData.map((skill, index) => (
     <div className="skills__content" key={index}>
-      <h3 className="skills__title">{skill.title}</h3>
+      {/*<h3 className="skills__title">{skill.title}</h3>*/}
       <div className="skills__box">
         {skill.names
           .sort((a, b) => {
