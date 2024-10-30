@@ -181,10 +181,10 @@ const Projects = () => {
             <img src={project.project_pic} alt="" className="work__img" />
             <h3 className="work__title">{project.title}</h3>
             <p className="work__description">{project.short_description}</p>
-            <div className="work__read-more">
-              <div className="work__read-more-text">Read More</div>
-              <div className="work__read-more-content" dangerouslySetInnerHTML={{ __html: project.read_more }}></div>
-            </div>
+            {/*<div className="work__read-more">*/}
+            {/*  <div className="work__read-more-text">Read More</div>*/}
+            {/*  <div className="work__read-more-content" dangerouslySetInnerHTML={{ __html: project.read_more }}></div>*/}
+            {/*</div>*/}
             <div className="work__buttons">
               <a href={project.github_link} className="work__button" target="_blank" rel="noopener noreferrer">
                 <i className="bx bxl-github"></i>
